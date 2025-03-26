@@ -2,11 +2,11 @@
 
 ![3D Tic Tac Toe](tictactoe.png)
 
-Hi there! This is my 3D Tic Tac Toe game built with LibGDX. I started with a basic flying objects demo and completely transformed it into a fun Tic Tac Toe game using a dedicated grid class.
+This is my 3D Tic Tac Toe game built with LibGDX.
 
 ## Project Overview
 
-I created a 3×3 board where each cell shows a 3D model – either an X, an O, or an empty cube. I built a special `TicTacToeGrid` class that keeps track of the board, handles placing marks, and even checks for wins or ties.
+I created a 3×3 board where each cell shows a 3D model – either an X, an O, or an empty cube. I implemented a  `TicTacToeGrid` class that keeps track of the board, handles placing marks, and even checks for wins or ties.
 
 For the 3D scene, I use a perspective camera to give an overhead view of the board, and ambient lighting to make everything look nice. A ModelBatch handles all the 3D rendering.
 
